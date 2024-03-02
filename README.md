@@ -1,13 +1,9 @@
 # GOSniff
 
----
-
 A CLI Network Analyzer Tool / Packet Sniffer written 100% in Golang.
 Mainly utilizes the `gopacket` library for packet sniffing and `cobra` for CLI.
 
 ## Important
-
----
 
 This project is heavily inspired by WirePenguin, a packet sniffer written in Golang by pwdz.
 If you are looking for a more mature project to use, definitely check out [WirePenguin](https://github.com/pwdz/WirePenguin).
@@ -16,8 +12,6 @@ Nevertheless, this project was solely created by me to learn more about packet s
 It is not meant to be a replacement for WirePenguin or any other packet sniffer.
 
 ## Usage
-
----
 
 ```
 A CLI Network Analyzer Tool / Packet Sniffer written in Go
@@ -65,8 +59,6 @@ Flags:
 
 ## Version info
 
----
-
 Currently, there is no support for offline packet analysis and reading/writing to pcap files.
 Perhaps sometime in the future, I will add support for this.
 
@@ -79,8 +71,6 @@ Other notable features that might be added in the future:
 - Packet filtering options
 
 ## Possible caveats
-
----
 
 Windows users might have to install Npcap for the sniffer to work. Npcap can
 be downloaded from [here](https://npcap.com/).
