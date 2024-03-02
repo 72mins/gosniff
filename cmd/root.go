@@ -6,7 +6,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "gosniff",
 	Short: "A CLI Network Analyzer Tool / Packet Sniffer written in Go",
@@ -20,8 +19,4 @@ func Execute() {
 }
 
 func init() {
-	err := captureCmd.MarkPersistentFlagRequired("interface")
-	if err != nil {
-		return
-	}
 }

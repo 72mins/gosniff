@@ -27,7 +27,7 @@ func ListDevices() {
 			fmt.Println(gchalk.Green("   IP: " + address.IP.String()))
 			fmt.Println(gchalk.Green("   Netmask: " + address.Netmask.String()))
 			fmt.Println(gchalk.Green("   Broadcast: " + address.Broadaddr.String()))
-			fmt.Println(gchalk.Yellow("----------------------------------------------------------"))
+			fmt.Println(gchalk.Yellow("   -------------------------------------------------------"))
 		}
 
 		fmt.Println(gchalk.Magenta("----------------------------------------------------------"))
