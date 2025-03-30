@@ -1,4 +1,12 @@
-# GOSniff
+<div align="center">
+
+# GoSniff
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+</div>
+
+<br />
 
 A CLI Network Analyzer Tool / Packet Sniffer written 100% in Golang.
 Mainly utilizes the `gopacket` library for packet sniffing and `cobra` for CLI.
@@ -56,7 +64,6 @@ Flags:
   -p, --promiscuous string   Whether to capture packets in promiscuous mode (default "false")
 ```
 
-
 ## Version info
 
 Currently, there is no support for offline packet analysis and reading/writing to pcap files.
@@ -81,4 +88,3 @@ Debian-based systems:
 ```
 sudo apt-get install libpcap-dev -y
 ```
-
